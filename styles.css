@@ -1,0 +1,631 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+h1, p{
+  font-family: Jost;
+}
+
+a {
+  text-decoration: none;
+  text-decoration-color: white;
+  color: black;
+}
+
+section {
+  margin-bottom: 10%;
+}
+
+.header-text h1{
+  margin-bottom: 10%;
+  font-family: Spartan;
+  font-size: 27px;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+
+
+#container {
+    position: absolute;
+    margin-top: 42px;
+    display: none;
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    
+    
+  }
+  
+  #check:checked ~ #container {
+    display: block;
+  
+  }
+
+.container{
+  display: block;
+}
+
+
+  .container h1{
+    font-size: 16px;
+    font-family: Jost;
+    padding-left: 5%;
+    padding-top: 5%;
+    line-height: 7%;
+    color: white;
+  }
+
+.header-log {
+  display: flex;
+  background-image: url(./images-mobile/Oval\ \(11\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  width: 38px;
+  height: 38px;
+}
+
+.logo-text{
+  margin-left: 167%;
+  letter-spacing: 7px;
+  color: black;
+}
+
+.input {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+}
+
+
+
+input#check { 
+  position: absolute;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: -22px;
+    height: 41px;
+    width: 147px;
+    
+}
+
+
+
+.mtavarii {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Jost;
+  text-align: center;
+  color: white;
+  width: 100%;
+  height: 894px;
+  margin-top: -6px;
+  padding-top: 15%;
+  background-image: url(./images-mobile/resp-Oval.png);
+  justify-content: normal;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mtavarii ul h1{
+  font-size: 32px;
+}
+
+.mtavarii ul{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 70%;
+  
+}
+
+.mtavarii button p {
+  font-family: Jost;
+  font-size: 18px;
+}
+.mtavarii button{
+  width: 146px;
+  height: 54px;
+  border: none;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.box1 {
+  font-family: Jost;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 327px;
+  height: 250px;
+  background-image: url(./images-mobile/Bitmap\ \(12\).png);
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  color: white;
+  background-size: cover;
+}
+
+
+.box2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: Jost;
+  width: 327px;
+  height: 250px;
+  background-image: url(./images-mobile/Bitmap\ \(13\).png);
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  color: white;
+  background-size: cover;
+}
+
+.box3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: Jost;
+  width: 327px;
+  height: 250px;
+  background-image: url(./images-mobile/Bitmap\ \(14\).png);
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  color: white;
+  background-size: cover;
+  
+}
+
+.center{
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 29%;
+  gap: 29px;
+}
+
+
+
+.center p{
+  display: flex;
+  justify-content: center;
+  letter-spacing: 5px;
+
+}
+
+
+.down{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 29%;
+  gap: 29px;
+}
+
+.down h1{
+  font-family: Jost;
+  font-weight: 500;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.down p{
+  font-family: Jost;
+  font-weight: 400;
+  font-size: 14px;
+
+}
+
+
+
+  
+.footer{
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 3%;
+  background-color: #E7816B;
+  color: white;
+  border-radius: 15px;
+  height: 385px;
+
+}
+
+.small {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30%;
+}
+
+.footer h1{
+  width: 264px;
+  font-family: Jost;
+  font-weight: 500;
+  font-size: 43px;
+}
+
+.footer p{
+  font-family: Jost;
+  font-weight: 400;
+  font-size: 17px;
+  margin: 4%;
+}
+
+.main_button p{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.footer_textH{
+  padding-top: 10px;
+}
+
+.footer_text {
+  padding-top: 21px;
+}
+
+.main_button button{
+  margin-top: 15%;
+}
+
+.small button{
+  width: 129px;
+  height: 50px;
+  border: none;
+  border-radius: 8px;
+  background-color: white;
+  margin-bottom: 31%;
+  padding-top: 11px;
+}
+
+.big {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: Jost;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  color: white;
+  padding-top: 27%;
+  margin-top: -20%;
+  padding-bottom: 50px;
+}
+
+.xazi {
+  width: 80%;
+  border: 1px solid rgb(54, 52, 52);
+  margin: 5%;
+}
+
+.list{
+  font-size: 6px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 4px;
+}
+
+.shua {
+  padding-top: 22px;
+  width: 53%;
+  color: rgb(165, 162, 162);
+  
+}
+
+.bolo{
+  padding-top: 36px;
+}
+
+.icon{
+  padding-top: 50px;
+}
+
+
+
+.big a {
+  color: white;
+}
+
+
+.divi h1{
+  font-weight: 200;
+}
+
+
+.mt{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10%;
+
+}
+
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+  gap: 75px;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (width > 600px){
+  .people2, .people1, .people3{
+    display: flex;
+  }
+
+  .logo-text{
+    margin-left: 167%;
+    letter-spacing: 10px;
+    font-size: 37px;
+  }
+}
+
+
+
+
+
+
+
+@media (width > 900px){
+  .dextop{
+    display: block;
+    height: 100vh;
+    background-image: url(./images-mobile/index-dextop.png);
+    background-repeat: no-repeat;
+    align-items: start;
+  }
+  .dextop ul{
+    text-align: left;
+    width: 40%;
+    margin-left: 170px;
+    margin-top: 63px;
+
+  }
+  .dextop ul h1{
+    font-size: 40px;
+  }
+
+  ul p {
+    font-size: 19px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (width > 1000px){
+  .input{
+    display: none;
+  }
+
+}
+
+@media (width < 1000px){
+  .divi{
+    display: none;
+  }
+
+  .pasionat_dextop, .resour_dextop, .friend_dextop{
+    display: none;
+  }
+
+  .down1{
+    display: none;
+  }
+
+}
+
+
+
+
+
+
+
+
+@media(width > 1800px){
+
+  /* მთავარი ტექსტი */
+
+  .dextop ul{
+    padding-left: 200px;
+    margin-top: -8%;
+  }
+
+  .dextop ul h1{
+    font-size: 200px;
+  }
+  .dextop ul p{
+    font-size: 70px;
+  }
+
+  .dextop ul button{
+    width: 500px;
+    height: 200px;
+  }
+
+  .divi h1{
+    font-size: 70px;
+    font-weight: 200;
+  }
+
+
+
+  /* ლოგო და ტექსტი */
+
+  .header-log{
+    width: 120px;
+    height: 120px;
+  }
+
+  .logo-text{
+    font-size: 145px;
+    letter-spacing: 38px;
+  }
+
+
+  .box1{
+    width: 1900px;
+    height: 1000px;
+    background-image: url(./images-mobile/Bitmap\ \(25\).png);
+    background-repeat: no-repeat;
+    border-radius: 70px;
+    background-size: cover;
+
+  }
+
+  .box2{
+    width: 1900px;
+    height: 1000px;
+    background-image: url(./images-mobile/Bitmap\ \(24\).png);
+    background-repeat: no-repeat;
+    border-radius: 70px;
+    background-size: cover;
+
+  }
+
+  .box3{
+    width: 1900px;
+    height: 1000px;
+    background-image: url(./images-mobile/Bitmap\ \(26\).png);
+    background-repeat: no-repeat;
+    border-radius: 70px;
+    background-size: cover;
+  }
+
+
+  .center h1 {
+    font-size: 135px;
+  }
+
+  .center p{
+    font-size: 70px;
+  }
+
+  /* .center2{
+    display: grid;
+  }   */
+
+
+  .people2, .people1, .people3{
+    display:block;
+  }
+
+  .pasionat_photo, .resour_photo, .friend_photo{
+    display: none;
+  }
+
+  .down{
+    display: none;
+  }
+
+  .rame{
+    text-align: center;
+    width: 700px;
+    margin-top: 10%;
+  }
+
+  .down1{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 600px;
+    align-items: start;
+    margin: 20% 30% 30% 15%;
+  }
+
+  .down h1{
+    font-size: 90px;
+    padding-top: 5%;
+  }
+
+  .down p {
+    padding-top: 5%;
+    font-size: 60px;
+  }
+
+
+  .pasionat_dextop{
+    width: 800px;
+    height: 800px;
+    background-image: url(./images-mobile/resurce\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .resour_dextop{
+    width: 800px;
+    height: 800px;
+    background-image: url(./images-mobile/Group\ 22\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;    
+  }
+
+
+  .friend_dextop{
+    width: 800px;
+    height: 800px;
+    background-image: url(./images-mobile/Group\ 21\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+  }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.logo-text1{
+  margin-left: 167%;
+  letter-spacing: 7px;
+  color: white;
+}

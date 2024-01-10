@@ -1,0 +1,269 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1, p{
+    font-family: Jost;
+}
+
+
+
+a {
+    text-decoration: none;
+    text-decoration-color: white;
+  }
+  
+  section {
+    height: 76px;
+  }
+  
+  .header-text h1{
+    margin-bottom: 10%;
+    font-family: Spartan;
+    font-size: 27px;
+    font-weight: 700;
+    letter-spacing: 5px;
+  }
+  
+  
+  #container {
+      position: absolute;
+      margin-top: 24px;
+      display: none;
+      width: 100%;
+      height: 150px;
+      background-color: black;
+      
+      
+    }
+    
+    #check:checked ~ #container {
+      display: block;
+    
+    }
+  
+  .container{
+    display: block;
+  }
+  
+  
+    .container h1{
+      font-size: 16px;
+      font-family: Jost;
+      padding-left: 5%;
+      padding-top: 5%;
+      line-height: 7%;
+      color: white;
+    }
+  
+  .header-log {
+    width: max-content;
+    margin-left: 5%;
+    margin-top: 9%;
+  
+  }
+  
+  .input {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+  }
+  
+  input#check {
+      display: flex;
+      flex-direction: column-reverse;
+      margin-top: -41px;
+      height: 41px;
+      width: 147px;
+      
+  }
+
+ .girl {
+    display: flex;
+    flex-direction: column;
+    font-family: Jost;
+    text-align: center;
+    width: 100%;
+    height: 641px;
+    margin-top: -5%;
+    align-items: center;
+    justify-content: normal;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: #FDF3F0;
+    margin-bottom: 24%;
+  }
+
+  .girl_photo{
+    width: 100%;
+    height: 100%;
+    background-image: url(./images-mobile/Bitmap\ \(21\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section{
+  margin-bottom: 5%;
+}
+
+.text1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 60%;
+    height: 100vh;
+    background-image: url(./images-mobile/Group\ 6\ \(1\).png);
+    background-repeat: no-repeat;
+}
+
+.textH1{
+    color: #E7816B;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 8%;
+    padding-top: 10%;
+}
+
+.text1 p{
+    margin:6%;
+    font-size: 17px;
+}
+
+.girl2_photo{
+    width: 100%;
+    height: 100%;
+    background-image: url(./images-mobile/Bitmap\ \(22\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.girl3_photo{
+    width: 100%;
+    height: 100%;
+    background-image: url(./images-mobile/Bitmap\ \(23\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+.footer{
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 3%;
+  background-color: #E7816B;
+  color: white;
+  border-radius: 15px;
+  height: 385px;
+
+}
+
+.small {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6%;
+}
+
+.footer h1{
+  width: 264px;
+  font-family: Jost;
+  font-weight: 500;
+  font-size: 43px;
+}
+
+.footer p{
+  font-family: Jost;
+  font-weight: 400;
+  font-size: 17px;
+  margin: 4%;
+}
+
+.main_button p{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.footer_textH{
+  padding-top: 10px;
+}
+
+.footer_text {
+  padding-top: 21px;
+}
+
+.main_button button{
+  margin-top: 15%;
+}
+
+.small button{
+  width: 129px;
+  height: 50px;
+  border: none;
+  border-radius: 8px;
+  background-color: white;
+  margin-bottom: 31%;
+  padding-top: 11px;
+}
+
+.big {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: Jost;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  color: white;
+  padding-top: 27%;
+  margin-top: -20%;
+  padding-bottom: 50px;
+}
+
+.xazi {
+  width: 80%;
+  border: 1px solid rgb(54, 52, 52);
+  margin: 5%;
+}
+
+.list{
+  font-size: 6px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 4px;
+}
+
+.shua {
+  padding-top: 22px;
+  width: 53%;
+  color: rgb(165, 162, 162);
+  
+}
+
+.bolo{
+  padding-top: 36px;
+}
+
+.icon{
+  padding-top: 50px;
+}
+
+.big a {
+  color: white;
+}
